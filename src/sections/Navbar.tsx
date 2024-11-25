@@ -12,7 +12,7 @@ const navLinks = [
 export default function Navbar() {
     return (
         <section className="py-4 lg:py-8">
-            <div className="fixed left-0 right-0 top-3 z-10 container max-w-5xl">
+            <div className="fixed left-0 right-0 top-3 z-50 container max-w-5xl">
                 <div className="grid grid-cols-2 lg:grid-cols-3 border border-white/15 rounded-full p-2 px-4 md:pr-2 items-center backdrop-blur">
                     <div>
                         <Image
