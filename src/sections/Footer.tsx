@@ -9,17 +9,22 @@ const footerLinks = [
 
 export default function Footer() {
     return (
-        <section className='py-16'>
+        <section className="py-16">
             <div className="container">
-                <div className='flex flex-col md:flex-row items-center md:justify-between gap-6'>
+                <div className="flex flex-col md:flex-row items-center md:justify-between gap-6">
                     <div>
                         <Image src={logoImage} alt="Layers Logo" />
                     </div>
                     <div>
-                        <nav className='flex gap-6'>
+                        <nav className="flex gap-6">
                             {footerLinks.map((link) => (
-                                // eslint-disable-next-line react/jsx-key
-                                <a href={link.href} className='text-white/50 text-sm'>{link.label}</a>
+                                <a
+                                    href={link.href}
+                                    key={link.label}
+                                    className="text-white/50 text-sm"
+                                >
+                                    {link.label}
+                                </a>
                             ))}
                         </nav>
                     </div>
