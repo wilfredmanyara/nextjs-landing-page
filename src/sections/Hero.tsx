@@ -53,14 +53,11 @@ export default function Hero() {
                 { duration: 0.5 },
             ],
         ]);
-    }, []);
+    }, [leftDesignAnimate, leftDesignScope, leftPointerAnimate, leftPointerScope, rightDesignAnimate, rightDesignScope, rightPointerAnimate, rightPointerScope]);
     return (
-        <section
-            className="py-24 overflow-x-clip"
-            style={{
-                cursor: `url(${cursorYouImage.src}), auto`,
-            }}
-        >
+        <section className="py-24 overflow-x-clip" style={{
+            cursor: `url(${cursorYouImage.src}), auto`,
+        }}>
             <div className="container relative">
                 <motion.div
                     ref={leftDesignScope}
@@ -71,7 +68,7 @@ export default function Hero() {
                     <Image
                         src={designExample1Image}
                         alt="Design Example 1 image"
-                        draggable="false"
+                        draggable='false'
                     />
                 </motion.div>
                 <motion.div
