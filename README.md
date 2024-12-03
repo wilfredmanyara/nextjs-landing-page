@@ -2,7 +2,7 @@
 
 A sleek and intuitive landing page for **Layers**, a design tool that combines powerful features with an effortless user experience.
 
-## 🚀 Features
+## Features
 - **Sections:** Home, Features, Integrations, FAQs, Log In, Sign Up.
 - **Highlights:**
   - $7.5M seed funding raised.
@@ -13,7 +13,7 @@ A sleek and intuitive landing page for **Layers**, a design tool that combines p
   - Keyboard Quick Actions.
   - Additional tools like Asset Library, Auto Layout, and Smart Guides.
 
-## 🛠️ Setup
+## Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/wilfredmanyara/nextjs-landing-page.git
